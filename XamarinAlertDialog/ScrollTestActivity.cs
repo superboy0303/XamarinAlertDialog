@@ -13,7 +13,7 @@ namespace XamarinAlertDialog
     {
         protected override void OnCreate(Bundle bundle)
         {
-            base.OnCreate(bundle);
+            base.OnCreate(bundle); 
             SetContentView(Resource.Layout.ScrollTest);
         }
     }
