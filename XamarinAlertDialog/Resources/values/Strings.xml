@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="Hello">Hello World, Click Me!</string>
-    <string name="ApplicationName">XamarinAlertDialog</string>
+  <string name="Hello">Hello World, Click Me!</string>
+  <string name="ApplicationName">XamarinAlertDialog</string>
+  <string name="UrlConnection">http://192.168.31.184:8989/value/index</string>
 </resources>
