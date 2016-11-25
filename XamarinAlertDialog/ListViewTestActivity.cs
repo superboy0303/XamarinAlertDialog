@@ -5,6 +5,7 @@ using Android.Content;
 using System;
 using Android.Views;
 using Java.Lang;
+using static Android.Views.View;
 
 namespace XamarinAlertDialog
 {
@@ -18,7 +19,7 @@ namespace XamarinAlertDialog
 
             var listView1 = FindViewById<ListView>(Resource.Id.listView1);
             var listViewData = new string[] { "字符1" , "字符2",  "字符3" };
-            listView1.Adapter = new ArrayAdapter<string>(BaseContext, Resource.Id, listViewData);
+            listView1.Adapter = new ArrayAdapter<string>(BaseContext, Android.Resource.Layout.SimpleListItem1, listViewData);
         }
     }
 }

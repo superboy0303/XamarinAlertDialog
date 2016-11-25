@@ -81,6 +81,9 @@ namespace XamarinAlertDialog
 			// aapt resource value: 0x7f050000
 			public const int listView1 = 2131034112;
 			
+			// aapt resource value: 0x7f050007
+			public const int name = 2131034119;
+			
 			static Id()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
