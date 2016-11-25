@@ -31,8 +31,13 @@
         android:layout_height="wrap_content"
         android:id="@+id/button5" />
     <Button
-        android:text="测试ListView"
+        android:text="测试简单的ListView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button6" />
+    <Button
+        android:text="测试复杂的ListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button7" />
 </LinearLayout>

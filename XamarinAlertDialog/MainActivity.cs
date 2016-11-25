@@ -44,6 +44,9 @@ namespace XamarinAlertDialog
                 Button btn6 = FindViewById<Button>(Resource.Id.button6);
                 btn6.Click += Btn6_Click;
 
+                Button btn7 = FindViewById<Button>(Resource.Id.button7);
+                btn7.Click += Btn7_Click;
+
                 // cancel和dismiss方法本质都是一样的，都是从屏幕中删除Dialog,唯一的区别是  
                 // 调用cancel方法会回调DialogInterface.OnCancelListener如果注册的话,dismiss方法不会回掉  
                 p_dialog.Cancel();
@@ -56,10 +59,22 @@ namespace XamarinAlertDialog
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void Btn6_Click(object sender, EventArgs e)
+        private void Btn7_Click(object sender, EventArgs e)
         {
             Intent intent = new Intent();
             intent.SetClass(BaseContext, typeof(ListViewTestActivity));
+            StartActivity(intent);
+        }
+
+        /// <summary>
+        /// 测试ListView相关
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void Btn6_Click(object sender, EventArgs e)
+        {
+            Intent intent = new Intent();
+            intent.SetClass(BaseContext, typeof(ListViewSimpleTestActivity));
             StartActivity(intent);
         }
 
