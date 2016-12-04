@@ -48,6 +48,10 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\DSJR\DSJRApplication\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -112,6 +116,13 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Images\1_性感美女\" />
+    <Folder Include="Images\2_韩日美女\" />
+    <Folder Include="Images\3_丝袜美腿\" />
+    <Folder Include="Images\4_美女照片\" />
+    <Folder Include="Images\5_美女写真\" />
+    <Folder Include="Images\6_清纯美女\" />
+    <Folder Include="Images\7_性感车模\" />
     <Folder Include="Models\" />
     <Folder Include="Views\Value\" />
   </ItemGroup>
